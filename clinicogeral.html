@@ -1,0 +1,204 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="rodape.css">
+	<!--link font weasome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>HCJ Odonto</title>
+<link rel="stylesheet" href="style.css" />
+			<style>
+.accordion {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  background-color: #62D9D9;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 250px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  padding: 10px;
+}
+
+.active, .accordion:hover {
+  background-color: #5FC2D9;
+}
+
+.accordion:after {
+	
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+				.imagemA{
+					width: 100%;
+					height: auto;
+				}
+				
+	</style>
+</head>
+
+<body>
+<!-- Barra Inicial - Inicio -->
+<div class="barrainicial">
+	<div class="flexbarra"><img src="img/phone.png" width="14" height="14" alt=""/> 
+	    (11)4807-3434</div>
+		<div class="flexbarra"><img src="img/whats.png" width="16" height="16" alt=""/>(11) 97718-7057</div>  
+		<div class="flexbarra"><img src="img/email.png" width="17" height="13" alt=""/>contato@hcjodonto.com.br</div>
+</div>
+	
+<!-- Barra Inicial - Final -->
+	<!-- Menu Responsivo - Inicio -->
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active"><img src="img/logo HCJOdonto160x45.png" width="160" height="45" alt=""/></a>
+  <a href="hcjodonto.html">HCJ Odonto</a>
+  <a href="especialidades.html">Especialidades</a>
+  <a href="exames.html">Exames</a>
+  <a href="blog.html">Blog</a>
+  <a href="convenios.html">Convênios</a>
+  <a href="contato.html">Contato</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<script>
+	function myFunction() {
+  		var x = document.getElementById("myTopnav");
+  	if (x.className === "topnav") {
+    	x.className += " responsive";
+  	} else {
+    	x.className = "topnav";
+  	}
+	}
+</script>
+
+<!-- Menu Responsivo - Final -->
+<center>
+	<img class="imagemA" src="img/Especialidades.png" width="1080" height="256" alt=""/>
+<h1>O que é Clinico Geral?</h1>
+	
+	<p>Aqui vai algum texto?</p>
+
+	<!-- Acordion - Inicio -->
+
+<button class="accordion">Limpeza odontológica</button>
+<div class="panel">
+  <p>A limpeza odontológica está indicada para todos os pacientes de todas as idades. Para as crianças que não têm tártaro dental, pode ser feita a profilaxia com escovinha, pasta profilática e aplicação de flúor para manter os dentes livres do biofilme (placa bacteriana) e de cáries. Já a raspagem, normalmente indicada para adultos, envolve a remoção de tártaro e biofilme da superfície dos dentes e espaços entre os dentes e gengivas, com instrumentais específicos, como curetas e pontas de ultrassom. Este é o procedimento mais eficaz para tratamento e prevenção de doenças como a gengivite e o progresso de doenças periodontais. </p>
+</div>
+
+<button class="accordion">Periodontia</button>
+<div class="panel">
+  <p>A periodontia é a especialidade odontológica que estuda, diagnostica, previne e trata as doenças que acometem a gengiva e tecidos de sustentação dos dentes, envolvendo partes moles e ossos. A periodontia é fundamental para manter a saúde dos dentes e do corpo como um todo. Há ainda evidências e estudos que mostram que é a periodontia é fundamental para prevenir outras doenças infecciosas que podem atacar o corpo, como a endocardite que afeta o coração e até mesmo pode estar ligada ao controle da diabetes. Durante o tratamento são feitas as raspagens que proporciona a higienização das bolsas que estão ao redor dos dentes. Assim é possível evitar os danos que seriam causados aos ossos de sustentação. O procedimento é realizado com a remoção de todo biofilme que se acumula ao redor dos órgãos dentais, tanto na parte acima da gengiva (supragengival), quanto na parte abaixo (subgengival). Em alguns casos mais avançados da doença pode ser necessários procedimentos cirúrgicos para uma resolutiva mais eficaz.</p>
+</div>
+<button class="accordion">Avaliação odontológica</button>
+<div class="panel">
+  <p>Um tratamento odontológico eficiente e eficaz, se inicia por uma avaliação odontológica que visa identificar a condição de saúde bucal dos pacientes, se atentando tanto para os sintomas de disfunções quanto para às queixas individuais em relação à função dos dentes e à estética.</p>
+</div>
+<button class="accordion">Exodontia</button>
+<div class="panel">
+  <p>A exodontia, também conhecida como extração dentária, é um procedimento cirúrgico odontológico que visa remoção de um dente, seja para fins curativos, quando um dente foi comprometido a ponto de não mais se conseguir tratá-lo de outra maneira, como por indicações de outras especialidades. As razões são extensamente variáveis, como cáries profundas, fraturas de grandes proporções, periodontia em estágio avançado, quando o suporte ósseo já está com comprometimento irreversível, além de indicações ortodônticas, periodontal, etc. Um outro motivo bastante comum são as extrações de terceiros molares, popularmente conhecidos como sisos. Suas indicações de extração são semelhantes aos dos demais elementos dentais e se estendem ao motivo de quando não irrompem (nascem) de forma adequada, podendo estar inclusos, impactados por outros dentes já nascidos e assim comprometendo a arcada dental como um todo. </p>
+</div>
+<button class="accordion">Restauração</button>
+<div class="panel">
+  <p>A restauração é uma forma de fazer com que o dente afetado pela cárie ou um dente fraturado (fraturas sem grandes extensões) volte à sua forma e sua função normal. Um tratamento restaurador por motivo da doença cárie consiste na remoção da parte do dente que está deteriorada, limpando assim a área atingida e então preenche a cavidade limpa com um material sintético, sendo o mais comum na atualidade, as resinas compostas estéticas, estas, com uma gama de cores bem extensa, para que sejam utilizadas em diferentes tons de dentes. O mesmo é feito com dentes fraturados, no entanto, as paredes do dente fraturados são regularizadas quando necessário e a partir daí o processo restaurador é realizado. </p>
+</div>
+<button class="accordion">Urgência e Emergência.</button>
+<div class="panel">
+  <p>Além de consultas eletivas, é muito comum haver a procura por procedimentos de urgência e emergência. Tais consultas visam solucionar qualquer problema dental que precise ser resolvido. Dentre as queixas mais comuns podemos citar: dor intensa, comprometimento estético de dentes anteriores, seja por fratura, avulsão (queda) de restaurações ou coroas, complicações cirúrgicas orais pós-operatórias, como sangramento, inflamações e infecções. </p>
+</div>
+</center>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+<!-- Acordion - Final -->
+
+	<!-- Rodapé - Inicio-->
+	<div class="container">
+		<footer class="footer-container">
+			<div class="footer-content-1">
+				<center><img src="img/logo png01.png" alt="Logo HCJ Odonto"></center>
+				
+				<p class="footer-empresa">
+					A HCJ odonto é uma clinica odontologica localizada em Jundiai - Centro que atende toda a região. Para nós, você é realmente importante! Então agende agora a sua avaliação e deixe a gente cuidar de você e de quem você ama.
+				</p>
+			</div>
+			<div class="footer-content-2">
+				<h3>ONDE ESTAMOS</h3>
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><!--<a href="https://www.google.com.br/maps/place/R.+Benjamin+Constant,+416+-+Centro,+Jundia%C3%AD+-+SP,+13201-046/@-23.1811837,-46.8916787,17z/data=!3m1!4b1!4m5!3m4!1s0x94cf268940a12ccf:0x45ac69f54c96a800!8m2!3d-23.1811886!4d-46.88949?hl=pt-BR"></a>-->
+						Rua Benjamin Constant,416 Centro - Jundiai - SP
+					</p>
+				</div>
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:contato@hcjodonto.com.br">
+						contato@hcjodonto.com.br
+					</a></p>
+				</div>
+				<div>
+					<i class="fa fa-phone"></i>
+					<p><a href="tel:1145210177">(11) 4521-0177</a></p>
+				</div>
+				<div>
+					<i class="fa fa-whatsapp"></i>
+					<p><a href="https://api.whatsapp.com/send?phone=5511977187057&text=Gostaria-de-mais-informações-sobre-serviço" target="_blank">
+						+55 11-97718-7057
+					</a></p>
+				</div>
+			</div>
+			<div class="footer-content-3">
+				<p class="footer-empresa">
+					<span>LINKS RÁPIDOS</span>
+				</p>
+				<ul id="lista">
+					<li><a href="hcjodonto.html">HCJ Odonto</a></li>
+					<li><a href="especialidades.html">Especialidades</a></li>
+					<li><a href="exames.html">Exames</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="convenios.html">Convênios</a></li>
+					<li><a href="contato.html">Contato</a></li>
+				</ul>
+				
+			</div>
+			<div class="copyright">
+				
+				<p>HCJ Odonto © 2022. Todos os direitos reservados.</p>
+			</div>
+		</footer>
+	</div>
+	<!-- Rodapé - Final-->
+</body>
+</html>

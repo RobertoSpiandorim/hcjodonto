@@ -1,0 +1,232 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="rodape.css">
+	<!--link font weasome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Blog</title>
+<link rel="stylesheet" href="style.css" />
+			<style>
+.imagemA{
+		width: 100%;
+		height: auto;
+				}
+.centered {
+			font-size: 50px;
+  			position: absolute;
+  			top: 50%;
+  			left: 50%;
+  			transform: translate(-50%, -50%);
+				}
+.textocima{
+		position: relative;
+  		text-align: center;
+  		color: white;
+				}
+				body {
+    padding: 0;
+    margin: 0;
+}
+			.textoajuda{
+				font-size: 20px;
+			}
+
+form {
+	margin: 25px;
+    font-family: Verdana,Tahoma,sans-serif;
+    font-size: 15px;
+    background-color: #3270A6;
+    max-width: 500px;
+	border-radius: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+
+input, textarea {
+    width: 200px;
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+}
+
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: #000066;
+    box-shadow: 5px 0px 9px #FFFF;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.enviar {
+    background-color: #62D9D9;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: black;
+}
+
+textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+
+form label {
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+	</style>
+</head>
+
+<body>
+<!-- Barra Inicial - Inicio -->
+<div class="barrainicial">
+	<div class="flexbarra"><img src="img/phone.png" width="14" height="14" alt=""/> 
+	    (11)4807-3434</div>
+		<div class="flexbarra"><img src="img/whats.png" width="16" height="16" alt=""/>(11) 97718-7057</div>  
+		<div class="flexbarra"><img src="img/email.png" width="17" height="13" alt=""/>contato@hcjodonto.com.br</div>
+</div>
+	
+<!-- Barra Inicial - Final -->
+	
+<!-- Menu Responsivo - Inicio -->
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active"><img src="img/logo HCJOdonto160x45.png" width="160" height="45" alt=""/></a>
+  <a href="hcjodonto.html">HCJ Odonto</a>
+	<a href="especialidades.html">Especialidades</a>
+  <a href="exames.html">Exames</a>
+ 
+  <a href="blog.html">Blog</a>
+  <a href="convenios.html">Convênios</a>
+  <a href="contato.html">Contato</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<script>
+	function myFunction() {
+  		var x = document.getElementById("myTopnav");
+  	if (x.className === "topnav") {
+    	x.className += " responsive";
+  	} else {
+    	x.className = "topnav";
+  	}
+	}
+</script>
+<div class="textocima">
+	<img class="imagemA" src="img/Especialidades.png" width="1080" height="256" alt=""/>
+	 <div class="centered">Entre em contato</div>
+</div>
+<!-- Menu Responsivo - Final -->
+		<center>
+	
+<!-- Entre em contato - Inicial-->
+	<center>	
+	<form name="meu_form">
+
+  <h1>Entre em contato</h1>
+
+  
+  <label for="nome">Nome</label>
+<input type="text" id="nomeid" placeholder="Qual seu nome?" required="required" name="nome" />
+  <p></p>
+  <label for="fone">Fone</label>
+<input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+ <p></p>
+  <label for="email">Email</label>
+ <input type="email" id="emailid" placeholder="Digite seu Email" name="email" />
+  <textarea placeholder="Qual especialidade?"></textarea>
+<center>
+  <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" /></center>
+</form>
+	</center>
+<script>
+	function Enviar() {
+
+    var nome = document.getElementById("nomeid");
+
+    if (nome.value != "") {
+        alert('Obrigado sr(a) ' + nome.value + ' os seus dados foram encaminhados com sucesso');
+    }
+
+}
+</script>
+			
+<!-- Entre em contato - Final-->
+	</center>
+	
+	<!-- Rodapé - Inicio-->
+	<div class="container">
+		<footer class="footer-container">
+			<div class="footer-content-1">
+				<center><img src="img/logo png01.png" alt="Logo HCJ Odonto"></center>
+				
+				<p class="footer-empresa">
+					A HCJ odonto é uma clinica odontologica localizada em Jundiai - Centro que atende toda a região. Para nós, você é realmente importante! Então agende agora a sua avaliação e deixe a gente cuidar de você e de quem você ama.
+				</p>
+			</div>
+			<div class="footer-content-2">
+				<h3>ONDE ESTAMOS</h3>
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><!--<a href="https://www.google.com.br/maps/place/R.+Benjamin+Constant,+416+-+Centro,+Jundia%C3%AD+-+SP,+13201-046/@-23.1811837,-46.8916787,17z/data=!3m1!4b1!4m5!3m4!1s0x94cf268940a12ccf:0x45ac69f54c96a800!8m2!3d-23.1811886!4d-46.88949?hl=pt-BR"></a>-->
+						Rua Benjamin Constant,416 Centro - Jundiai - SP
+					</p>
+				</div>
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:contato@hcjodonto.com.br">
+						contato@hcjodonto.com.br
+					</a></p>
+				</div>
+				<div>
+					<i class="fa fa-phone"></i>
+					<p><a href="tel:1145210177">(11) 4521-0177</a></p>
+				</div>
+				<div>
+					<i class="fa fa-whatsapp"></i>
+					<p><a href="https://api.whatsapp.com/send?phone=5511977187057&text=Gostaria-de-mais-informações-sobre-serviço" target="_blank">
+						+55 11-97718-7057
+					</a></p>
+				</div>
+			</div>
+			<div class="footer-content-3">
+				<p class="footer-empresa">
+					<span>LINKS RÁPIDOS</span>
+				</p>
+				<ul id="lista">
+					<li><a href="hcjodonto.html">HCJ Odonto</a></li>
+					<li><a href="especialidades.html">Especialidades</a></li>
+					<li><a href="exames.html">Exames</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="convenios.html">Convênios</a></li>
+					<li><a href="contato.html">Contato</a></li>
+				</ul>
+				
+				
+			</div>
+			<div class="copyright">
+				
+				<p>HCJ Odonto © 2022. Todos os direitos reservados.</p>
+			</div>
+		</footer>
+	</div>
+	<!-- Rodapé - Final-->
+</body>
+</html>
